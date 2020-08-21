@@ -99,6 +99,64 @@ body
     font-weight: normal
     margin: 0
 
+// Projects ------------------------------------------------------
+.projects
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%)
+  &-slide
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+  &-pagination
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-top: 44px
+  &-bullet
+    display: inline-block
+    width: 10px
+    height: 10px
+    border: 2px solid #FFBB01
+    border-radius: 50%
+    margin-left: 5px
+    margin-right: 5px
+    cursor: pointer
+    &-active
+      background-color: #FFBB01
+.project
+  &-image
+    max-width: 338px
+    height: auto
+  &-text 
+    flex-basis: 60%
+    display: flex
+    flex-wrap: wrap
+  &-title
+    flex-basis: 100%
+    font-weight: bold
+    font-size: 24px
+    line-height: 28px
+    margin: 0
+    margin-bottom: 41px
+  &-time, &-cost
+    flex-basis: 50%
+    margin-bottom: 44px
+  &-time, &-cost, &-feedback
+    display: flex
+    align-items: flex-start
+  &-subtitle
+    margin: 0
+    margin-bottom: 7px
+    font-weight: bold
+    font-size: 18px
+    line-height: 21px
+  &-paragraph
+    margin: 0
+    font-size: 16px
+    line-height: 19px
+  &-icon
+    margin-right: 16px
+  
+
 // Contacts -----------------------------------------------------
 
 .contacts
@@ -178,4 +236,4 @@ body
     text-decoration-line: underline
     color: #A5A5A5
 .footer
-  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%)
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%)
